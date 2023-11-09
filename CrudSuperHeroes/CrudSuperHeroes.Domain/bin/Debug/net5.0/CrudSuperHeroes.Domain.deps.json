@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CrudSuperHeroes.Domain/1.0.0": {
+        "runtime": {
+          "CrudSuperHeroes.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrudSuperHeroes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\bin\Debug\net5.0\CrudSuperHeroes.Domain.deps.json
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\bin\Debug\net5.0\CrudSuperHeroes.Domain.dll
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\bin\Debug\net5.0\CrudSuperHeroes.Domain.pdb
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.AssemblyInfoInputs.cache
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.AssemblyInfo.cs
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.csproj.CoreCompileInputs.cache
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.dll
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\refint\CrudSuperHeroes.Domain.dll
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\CrudSuperHeroes.Domain.pdb
+D:\DESENVOLVIMENTO\PROCESSO-SELETIVO\Viceri_Seidor\CrudSuperHeroes\CrudSuperHeroes.Domain\obj\Debug\net5.0\ref\CrudSuperHeroes.Domain.dll
