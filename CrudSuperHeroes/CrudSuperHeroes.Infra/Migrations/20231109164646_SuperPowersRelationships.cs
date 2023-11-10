@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CrudSuperHeroes.Infra.Migrations
 {
-    public partial class SuperPowersRelationship : Migration
+    public partial class SuperPowersRelationships : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -63,6 +63,16 @@ namespace CrudSuperHeroes.Infra.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "SuperPoderes",
+                columns: new[] { "Id", "Descricao", "SuperPoder" },
+                values: new object[] { 1, "pode gerar um campo de energia , permitindo que ele se mova livremente e levite", "Voa" });
+
+            migrationBuilder.InsertData(
+                table: "SuperPoderes",
+                columns: new[] { "Id", "Descricao", "SuperPoder" },
+                values: new object[] { 2, "é a habilidade de realizar proezas sobre-humanas de força física ou exercer força física além do escopo do que um humano é capaz", "Super Força" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_HeroisSuperPoderes_HeroiId",

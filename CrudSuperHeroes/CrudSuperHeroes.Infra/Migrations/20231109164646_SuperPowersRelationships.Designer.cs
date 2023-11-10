@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudSuperHeroes.Infra.Migrations
 {
     [DbContext(typeof(CrudSuperHeroDbContext))]
-    [Migration("20231109142255_SuperPowersRelationship")]
-    partial class SuperPowersRelationship
+    [Migration("20231109164646_SuperPowersRelationships")]
+    partial class SuperPowersRelationships
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -89,6 +89,20 @@ namespace CrudSuperHeroes.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SuperPoderes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Descricao = "pode gerar um campo de energia , permitindo que ele se mova livremente e levite",
+                            SuperPoder = "Voa"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Descricao = "é a habilidade de realizar proezas sobre-humanas de força física ou exercer força física além do escopo do que um humano é capaz",
+                            SuperPoder = "Super Força"
+                        });
                 });
 
             modelBuilder.Entity("CrudSuperHeroes.Domain.Entities.HeroisSuperPoderes", b =>

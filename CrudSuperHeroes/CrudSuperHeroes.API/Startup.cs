@@ -1,4 +1,7 @@
+using CrudSuperHeroes.Domain.Entities;
+using CrudSuperHeroes.Domain.Interfaces;
 using CrudSuperHeroes.Infra.Context;
+using CrudSuperHeroes.Infra.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +35,12 @@ namespace CrudSuperHeroes.API
             {
                 options.UseSqlServer(Configuration.GetConnectionString("HeroPowersConnection"));
             });
-            services.AddControllers();
+
+            services.AddScoped(typeof(IRepository<Herois>), typeof(HeroisRepository));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+
+            services.AddControllers().AddNewtonsoftJson();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CrudSuperHeroes.API", Version = "v1" });
@@ -54,6 +62,8 @@ namespace CrudSuperHeroes.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {

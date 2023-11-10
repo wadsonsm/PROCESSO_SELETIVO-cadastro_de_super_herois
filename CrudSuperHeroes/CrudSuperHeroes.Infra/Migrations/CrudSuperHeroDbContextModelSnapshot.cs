@@ -87,6 +87,20 @@ namespace CrudSuperHeroes.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SuperPoderes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Descricao = "pode gerar um campo de energia , permitindo que ele se mova livremente e levite",
+                            SuperPoder = "Voa"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Descricao = "é a habilidade de realizar proezas sobre-humanas de força física ou exercer força física além do escopo do que um humano é capaz",
+                            SuperPoder = "Super Força"
+                        });
                 });
 
             modelBuilder.Entity("CrudSuperHeroes.Domain.Entities.HeroisSuperPoderes", b =>
